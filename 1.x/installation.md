@@ -59,6 +59,19 @@ php artisan migrate
 
 During installation, Jetstream will publish a variety of views and classes to your application. When using Livewire, views will be published to your `resources/views` directory. When using Inertia, "Pages" will be published to your `resources/js/Pages` directory. These views / pages contain every feature supported by Jetstream and you are free to customize them as needed. Think of Jetstream as a starting point for your application. Once you have installed Jetstream, you are free to customize anything you like.
 
+### Local Developement Server
+
+After migrations performed successully. you should run
+
+
+```bash
+php atisan serve
+```
+Go to browser and access local server with 127.0.0.0: your port number
+
+now go to left side to register
+
+
 #### Dashboard
 
 The "main" view of your application is published at `resources/views/dashboard.blade.php` when using Livewire and `resources/js/Pages/Dashboard.vue` when using Inertia. You are free to use this as a starting point for building the primary view of your application.
